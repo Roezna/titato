@@ -1,0 +1,23 @@
+.score{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.score div{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    background-color: rgb(0, 162, 255);;
+}
+.score div:first-child{
+    background-color: rgb(255, 38, 0);
+}
+
+@media(max-width: 700px){
+    .score{
+        margin-top: 50px;
+    }
+}
